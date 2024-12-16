@@ -1,0 +1,72 @@
+body{
+    background-image: url(./images/background/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+}
+input:focus{
+    color: red;
+}
+
+input::placeholder{
+    color: rgb(36, 35, 35);
+    font-weight: bold;
+}
+
+#weather_app{
+    padding: 35px;
+    background: transparent;   
+    color: rgb(231, 228, 228);
+    height: 90vh;
+}
+
+#weather_app .head, #weather_app .future_weather{
+    display: flex;
+    padding: 35px;
+    justify-content: center;
+    background: no-repeat;
+
+}
+
+.container p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container p img{
+    width: 45px;
+    height: 45px;
+}
+
+.head{
+    border-radius: 15px;
+}
+
+.today_weather,  .future_weather{
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 15px;
+    padding: 5px 40px;
+    font-size: 22px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.information{
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 15px;
+    font-size: 22px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
